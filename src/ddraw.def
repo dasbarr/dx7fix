@@ -1,0 +1,24 @@
+LIBRARY ddraw
+EXPORTS
+AcquireDDThreadLock				= ProxyAcquireDDThreadLock				@1
+CompleteCreateSysmemSurface		= ProxyCompleteCreateSysmemSurface		@2
+D3DParseUnknownCommand			= ProxyD3DParseUnknownCommand			@3
+DDGetAttachedSurfaceLcl			= ProxyDDGetAttachedSurfaceLcl			@4
+DDInternalLock					= ProxyDDInternalLock					@5
+DDInternalUnlock				= ProxyDDInternalUnlock					@6
+DSoundHelp						= ProxyDSoundHelp						@7
+DirectDrawCreate				= ProxyDirectDrawCreate					@8
+DirectDrawCreateClipper			= ProxyDirectDrawCreateClipper			@9
+DirectDrawCreateEx				= ProxyDirectDrawCreateEx				@10
+DirectDrawEnumerateA			= ProxyDirectDrawEnumerateA				@11
+DirectDrawEnumerateExA			= ProxyDirectDrawEnumerateExA			@12
+DirectDrawEnumerateExW			= ProxyDirectDrawEnumerateExW			@13
+DirectDrawEnumerateW			= ProxyDirectDrawEnumerateW				@14
+DllCanUnloadNow					= ProxyDllCanUnloadNow					PRIVATE
+DllGetClassObject				= ProxyDllGetClassObject				PRIVATE
+GetDDSurfaceLocal				= ProxyGetDDSurfaceLocal				@17
+GetOLEThunkData					= ProxyGetOLEThunkData					@18
+GetSurfaceFromDC				= ProxyGetSurfaceFromDC					@19
+RegisterSpecialCase				= ProxyRegisterSpecialCase				@20
+ReleaseDDThreadLock				= ProxyReleaseDDThreadLock				@21
+SetAppCompatData				= ProxySetAppCompatData					@22
